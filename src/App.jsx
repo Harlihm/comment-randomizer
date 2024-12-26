@@ -5,6 +5,7 @@ import './App.css'
 const App = () => {
   const [identifier, setIdentifier] = useState('');
   const [replies, setReplies] = useState([]);
+  const [rep, setRep] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
