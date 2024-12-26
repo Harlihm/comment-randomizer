@@ -3,13 +3,14 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  align-items:center;
 }
 
 .thecode{
   display: flex;
   align-items: center;
   flex-direction: column;
-
+  gap: 10;
 }
 
 input{
